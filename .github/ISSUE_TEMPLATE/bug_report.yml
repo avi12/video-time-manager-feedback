@@ -61,12 +61,12 @@ body:
     attributes:
       label: Make sure the bug wasn't reported before
       options:
-        - label: I'm the first one to [report](/avi12/youtube-time-manager-feedback/issues?q=is%3Aissue+) it
+        - label: I'm the first one to [report](/avi12/video-time-manager-feedback/issues?q=is%3Aissue+) it
           required: true
   - type: checkboxes
     id: isolated
     attributes:
-      label: Make sure that YouTube Time Manager is the only extension running on YouTube
+      label: Make sure that Video Time Manager is the only extension running on YouTube
       options:
         - label: The issue still persists after disabling any other YouTube extension
           required: true
